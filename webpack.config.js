@@ -8,7 +8,8 @@ module.exports = {
   },
   module: {
     loaders: [
-      { test: /\.css$/, loader: 'css' }
+      { test: /\.css$/, loader: 'css' },
+      { test: /\.jpg/, loader: 'file' }
     ]
   }
 }

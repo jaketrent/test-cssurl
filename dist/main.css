@@ -52,7 +52,7 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(2)();
-	exports.push([module.id, "body {\n  color: blue;\n  background: url("+__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./ra.jpg\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()))+");\n}", ""]);
+	exports.push([module.id, "body {\n  color: blue;\n  background: url("+__webpack_require__(3)+");\n}", ""]);
 
 /***/ },
 /* 2 */
@@ -109,6 +109,12 @@
 		return list;
 	};
 
+
+/***/ },
+/* 3 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "ac569ec8bcf7930f6556dd484e1c4a2e.jpg"
 
 /***/ }
 /******/ ]);
